@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav{
+    background-color: rgb(255, 255, 255);
+    padding: 2px;
+  
+}
+
+
+main{
+  background-color: rgba(5, 5, 5, 0.562);
+  filter: blur(100%);
+  width: 100%;
+  max-width: 350px;
+  border-radius: 5px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 10px auto;
+}
+
+.logo{
+    width: 100%;
+    max-width: 60px;
+  
+ 
+}
+
+  .menu {
+    background-color:  #000000;
+    padding: 20px 20px;
+    display: flex;
+    position: absolute;
+    left: 0;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    max-height: 20px;
+    z-index: 1;
+  }
+  
+  .menu-btn {
+    background-color: transparent;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .menu-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: none;
+  }
+  
+  .menu-list li {
+    display: inline;
+    margin-left: 20px;
+  }
+
+  .menu-list li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+.iconesPrincipal{
+  display: flex;
+}
+  .iconesPrincipal img{
+    width: 100%;
+    max-width: 40px;
+  }
+
+  .iconeHotel{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+  }
+
+  .iconeAviao{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+  }
+ 
+
+  .iconeMala{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+   
+  }
+
+  .Hotel, .Passagens, .Pacotes{
+    display: block;
+  }
+
+  .aviao-btn, .hotel-btn, .mala-btn{
+    border-radius: 2px;
+    border-color: blue;
+    width: 90px;
+    background-color: rgb(255, 255, 255);
+  
+  }
