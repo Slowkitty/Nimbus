@@ -17,6 +17,12 @@ nav{
   
 }
 
+body{
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
 
 main{
   background-color: rgba(5, 5, 5, 0.562);
@@ -107,6 +113,7 @@ main{
 
   .Hotel, .Passagens, .Pacotes{
     display: block;
+
   }
 
   .aviao-btn, .hotel-btn, .mala-btn{
@@ -116,3 +123,66 @@ main{
     background-color: rgb(255, 255, 255);
   
   }
+
+  .cartao{
+  margin: auto;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 720px;
+  background-color: rgb(27, 233, 0);
+ backdrop-filter: blur(200px);
+  }
+  .Hotel{
+    background-color: rgb(255, 255, 255);
+
+  }
+
+
+
+  /* ////////separação///// */
+  #pedidoHospedagem {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#pedidoHospedagem h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#pedidoHospedagem label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+#pedidoHospedagem input[type="text"],
+#pedidoHospedagem input[type="number"],
+#pedidoHospedagem input[type="date"] {
+    width: calc(100% - 20px);
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+#pedidoHospedagem button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#pedidoHospedagem button:hover {
+    background-color: #0056b3;
+}
